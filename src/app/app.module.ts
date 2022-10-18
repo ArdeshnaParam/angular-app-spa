@@ -9,6 +9,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { TestComponent } from './test/test.component';
 import { Test2Component } from './test2/test2.component';
 import { Test3Component } from './test3/test3.component';
+import { Test5Component } from './test5/test5.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Test3Component } from './test3/test3.component';
     WarningAlertComponent,
     TestComponent,
     Test2Component,
-    Test3Component
+    Test3Component,
+    Test5Component
   ],
   imports: [
     BrowserModule
